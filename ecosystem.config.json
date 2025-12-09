@@ -1,0 +1,16 @@
+{
+    "name": "xobot",
+    "script": "run.py",
+    "interpreter": "/home/user1/XOBot/venv/bin/python",
+    "cwd": "/home/user1/XOBot",
+    "instances": 1,
+    "autorestart": true,
+    "watch": false,
+    "max_memory_restart": "500M",
+    "env": {
+        "PYTHONUNBUFFERED": "1"
+    },
+    "error_file": "/home/user1/XOBot/logs/error.log",
+    "out_file": "/home/user1/XOBot/logs/out.log",
+    "log_date_format": "YYYY-MM-DD HH:mm:ss Z"
+}

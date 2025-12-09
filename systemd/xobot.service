@@ -1,0 +1,20 @@
+[Unit]
+Description=XOBot - Telegram Tic Tac Toe Game Bot
+After=network.target
+
+[Service]
+Type=simple
+User=user1
+WorkingDirectory=/home/user1/XOBot
+Environment="PATH=/home/user1/XOBot/venv/bin"
+ExecStart=/home/user1/XOBot/venv/bin/python run.py
+Restart=always
+RestartSec=10
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=xobot
+
+[Install]
+WantedBy=multi-user.target

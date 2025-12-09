@@ -1,0 +1,14 @@
+# Default owners for everything in the repo
+* @yourusername
+
+# Python files
+*.py @yourusername
+
+# Configuration files
+*.yml *.yaml @yourusername
+*.json @yourusername
+*.conf @yourusername
+
+# Documentation
+*.md @yourusername
+LICENSE @yourusername
